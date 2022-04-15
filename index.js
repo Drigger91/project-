@@ -31,7 +31,9 @@ app.post("/bhfl", (req, res) => {
       });
     }
     catch(e){
-      res.status(400).send(e.message);
+      res.status(400).send({
+        is_success:false
+      });
     }
  
 });
