@@ -7,7 +7,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("go to route for data");
 });
-app.post("/bhfl", (req, res) => {
+app.post("/bfhl", (req, res) => {
   let numbers = [];
   let alphabets = [];
     try{
